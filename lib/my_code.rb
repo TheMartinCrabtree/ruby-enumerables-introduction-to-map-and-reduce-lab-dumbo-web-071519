@@ -52,7 +52,7 @@ def reduce_to_total(source_array, starting_point)
 
   #return total
   
-if(!starting_point)
+if(starting_point == nil)
   starting_point = 0 
 end
   

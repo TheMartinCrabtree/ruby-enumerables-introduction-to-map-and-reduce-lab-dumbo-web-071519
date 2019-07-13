@@ -52,7 +52,7 @@ def reduce_to_total(source_array, starting_point)
 
   #return total
   
-  
+  source_array.reduce(starting_point) { |sum, num| sum + num}
 end
 
 

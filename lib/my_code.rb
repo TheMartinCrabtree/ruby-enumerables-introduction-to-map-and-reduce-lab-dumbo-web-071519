@@ -56,7 +56,7 @@ if(!starting_point)
   starting_point = 0 
 end
   
-  source_array.reduce(starting_point) { |sum, num| sum + num}
+  return source_array.reduce(starting_point) { |sum, num| sum + num}
 end
 
 

@@ -53,7 +53,9 @@ def reduce_to_total(source_array, starting_point)
   #return total
   
 if(!starting_point)
-  return source_array.reduce() { |sum, num| sum + num}
+  return source_array.each do |sum, num| 
+    sum + num 
+  end
 end
   
   return source_array.reduce(starting_point) { |sum, num| sum + num}

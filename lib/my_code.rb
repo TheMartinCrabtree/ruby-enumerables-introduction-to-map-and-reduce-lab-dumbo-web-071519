@@ -52,7 +52,7 @@ def reduce_to_total(source_array, starting_point)
 
   #return total
   
-if(!starting_point)
+if(starting_point = nil)
   return source_array.each do |sum, num| 
     sum + num 
   end
